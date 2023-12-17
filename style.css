@@ -5,13 +5,13 @@ h1 {
   font-family: "Coiny", sans-serif;
 }
 
-p {
+.fact {
   font-size: 20px;
   line-height: 1.4;
   font-family: "Sono", sans-serif;
 }
 
-span {
+.tag {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Coiny", sans-serif;
