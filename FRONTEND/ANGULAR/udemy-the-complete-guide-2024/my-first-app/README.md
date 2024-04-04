@@ -1,6 +1,6 @@
-# MyFirstApp
+# FirstApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0-rc.5.
 
 ## Development server
 
