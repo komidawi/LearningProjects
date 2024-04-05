@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  passwordVisible = false;
+  clicks = [];
+
+  onButtonClicked() {
+    this.passwordVisible = !this.passwordVisible;
+    this.clicks.push(this.clicks.length + 1)
+  }
 }
