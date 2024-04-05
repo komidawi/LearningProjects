@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { WarningAlertComponent } from './alerts/warning-alert.component'
+import { SuccessAlertComponent } from './alerts/success-alert.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,
