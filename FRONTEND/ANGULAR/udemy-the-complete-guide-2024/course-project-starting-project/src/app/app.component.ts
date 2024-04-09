@@ -6,4 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  recipesVisible = true
+  shoppingListVisible = true
+
+  onNavigationClick(tab: string) {
+    if (tab === 'recipes') {
+      this.recipesVisible = !this.recipesVisible
+    }
+    if (tab === 'shoppingList') {
+      this.shoppingListVisible = !this.shoppingListVisible
+    }
+  }
 }
