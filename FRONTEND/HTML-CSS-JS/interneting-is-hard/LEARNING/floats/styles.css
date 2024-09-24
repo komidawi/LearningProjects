@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;
+}
+
+.sidebar {
+    float: left;
+    width: 200px; /* Add this */
+    height: 300px;
+    background-color: #F09A9D;
+}
+
+.content {
+    float: left; /* Add this */
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E;
+}
+
+.footer {
+    clear: both;
+    height: 200px;
+    background-color: #D6E9FE;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red; /* Add this */
+}
