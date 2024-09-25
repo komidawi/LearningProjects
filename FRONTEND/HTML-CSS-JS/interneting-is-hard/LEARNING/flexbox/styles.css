@@ -20,3 +20,14 @@
     border: 1px solid #FFF;
     width: 900px;
 }
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+
+    border: 1px solid #FFF;
+}
+
+.login {
+    margin-left: 20px;
+}
