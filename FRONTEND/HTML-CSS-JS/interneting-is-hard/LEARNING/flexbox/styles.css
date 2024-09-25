@@ -5,12 +5,18 @@
 }
 
 .menu-container {
+    display: flex;
+    justify-content: center;
+
     color: #FFF;
     background-color: #5995DA;
     padding: 20px 0;
 }
 
 .menu {
+    display: flex;
+    justify-content: space-between;
+
     border: 1px solid #FFF;
     width: 900px;
 }
