@@ -31,3 +31,19 @@
 .login {
     margin-left: 20px;
 }
+
+.header-container {
+    display: flex;
+    justify-content: center;
+
+    color: #5995DA;
+    background-color: #D6E9FE;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 900px;
+    height: 300px;
+}
