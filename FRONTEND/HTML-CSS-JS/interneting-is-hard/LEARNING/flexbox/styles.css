@@ -66,3 +66,9 @@
     width: 300px;
     height: 300px;
 }
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin: 20px;
+}
