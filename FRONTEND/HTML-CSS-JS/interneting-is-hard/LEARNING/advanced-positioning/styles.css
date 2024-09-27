@@ -34,6 +34,10 @@ body {
 
 .item-absolute {
     position: absolute;
-    top: 400px;
-    left: 400px;
+    top: 40px;
+    left: 330px;
+}
+
+.absolute {
+    position: relative;
 }
