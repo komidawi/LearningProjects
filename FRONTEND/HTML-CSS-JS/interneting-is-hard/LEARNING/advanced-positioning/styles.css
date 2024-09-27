@@ -25,3 +25,15 @@ body {
 .item img {
     display: block;
 }
+
+.item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
