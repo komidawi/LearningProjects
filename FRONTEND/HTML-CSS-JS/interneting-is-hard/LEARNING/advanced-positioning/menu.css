@@ -44,7 +44,7 @@ a:hover {
     margin-right: 0;
 }
 
-.features-menu {
+.dropdown:hover .features-menu {
     display: flex;
     flex-direction: column;
     background: #B2D6FF;
@@ -55,6 +55,10 @@ a:hover {
     z-index: 1;
     top: -25px;
     left: -30px;
+}
+
+.features-menu {
+    display: none;
 }
 
 .dropdown {
