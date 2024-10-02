@@ -1,0 +1,46 @@
+<!-- [1.1] String Interpolation -->
+<p>Project: {{ title }}</p>
+
+<!-- [1.2] Property Binding -->
+<button [disabled]="!isEnabled">
+  This is a button
+</button>
+
+<br/><br/>
+
+<!-- [2.1] Event Binding - local -->
+<button (click)="toggleButtonEnabled()">
+  Toggle Enabled
+</button>
+
+<br/><br/>
+
+<!-- [2.1] Event Binding - Child @Output to Parent -->
+<app-child-component
+  (eventHappened)="toggleButtonEnabled()">
+</app-child-component>
+
+<br/><br/>
+
+<!-- [3.1] Two-way binding -->
+<input type="text" [(ngModel)]="text"><br/>
+<input type="text" [(ngModel)]="text">
+
+<!-- 1. @Input Decorator -->
+<app-child-component
+  [buttonShown]="true">
+</app-child-component>
+
+<!-- 2. Local Reference -->
+<input type="text" #localReferenceInput>
+<button (click)="onClickForLocalRef(localReferenceInput)">Local Ref Click</button>
+
+<!-- 4. Content projection with <ng-content> -->
+<app-child-component>
+  <p>This comes from Parent!</p>
+</app-child-component>
+
+<!-- 5. @ContentChild -->
+<app-labelka>
+  <p #contentParagraph>To jest oznaczone #contentParagraph</p>
+</app-labelka>

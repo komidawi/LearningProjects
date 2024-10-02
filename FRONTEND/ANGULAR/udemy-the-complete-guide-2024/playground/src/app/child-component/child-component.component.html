@@ -1,0 +1,11 @@
+<hr>
+<p>Child:Start</p>
+<button *ngIf="btnShown" (click)="onButtonClick()">
+  Child Button
+</button>
+
+<!-- 4. Content projection with <ng-content> -->
+<ng-content></ng-content>
+
+<p>Child:End</p>
+<hr>
