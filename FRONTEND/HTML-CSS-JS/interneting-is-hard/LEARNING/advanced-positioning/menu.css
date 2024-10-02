@@ -52,12 +52,19 @@ a:hover {
     padding-top: 60px;
 
     position: absolute;
+    z-index: 1;
     top: -25px;
     left: -30px;
 }
 
 .dropdown {
     position: relative;
+}
+
+.dropdown > span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
 }
 
 .features-menu li {
